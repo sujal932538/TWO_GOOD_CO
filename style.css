@@ -37,13 +37,17 @@ body {
 }
 #nav #nav-part1 {
     
+    height: 80px;
     align-items: center;
     justify-content: space-between;
     display: flex;
-
+    overflow: hidden;
 
 }
 
+#nav #nav-part1 svg{
+     display: block;
+}
 
 
 #nav #nav-part-2{
@@ -200,7 +204,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 20px;
+    margin-left: 17vh;
+
     
     
 }
@@ -209,6 +214,20 @@ body {
     height: 100%;
      width: 100%;
 }
+/* .price{
+
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    margin-left: 10%;
+    
+}
+
+.price p{
+
+    padding-left: 30%;
+    padding-top: 40vh;
+} */
 
 .page4 {
     height: 100vh;
@@ -219,13 +238,13 @@ body {
 }
 
 .page4 h1 {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 2vh;
     font-family: futura;
     /* background-color: rgb(44, 24, 124); */
     position: absolute;
-    margin-top: 10vh;
-    margin-left: 13%;
+    margin-top: 15vh;
+    margin-left: 25%;
     
     align-items: center;
     justify-content: center;
@@ -234,18 +253,48 @@ body {
 }
 
 .page4 h2 {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 2vh;
     font-family: futura;
-    /* background-color: rgb(44, 24, 124); */
+    /* background-color: rgb(44, 24, 124);  */
+    
     position: absolute;
-    margin-top: 16vh;
-    margin-left: 32%;
+    margin-top: 20vh;
+    margin-left: 37%;
     align-items: center;
     justify-content: center;
 
 
 }
+.page4 p{
+    font-size: 2vh;
+    padding-top: 30vh;
+    margin-left: 25%;
+    
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.page4 .pong p{
+
+   
+    /* background-color: rgb(44, 24, 124); */
+    position: absolute;
+    margin-top: -28vh;
+    margin-left: 17%;
+    
+}
+.page4 .pong button{
+    background-color: black;
+    color: white;
+    margin-top: 15vh;
+    margin-left: 40%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: futura;
+   cursor: pointer;
+} 
+
 
 @media (max-width: 600px) {
 
@@ -342,3 +391,4 @@ body {
 }
      */
 }
+ 
