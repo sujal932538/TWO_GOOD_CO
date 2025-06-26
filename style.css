@@ -172,16 +172,18 @@ body {
 
 }
 
-/* #page2  .elem .dets {
-    height: 80px;
-    border-radius: 50px;
-    width: 50px;
+ #page2  .elem  .dets {
+    height: 60px;
+    width: 14vw;
+    border-radius: 40px;
     position: absolute;
+    top: 50%;
+    left: 43%;
     z-index:9;
-    background-color: #fff;
+    background-color: #7ccab9;
 
 
-} */
+} 
 
 
 
