@@ -296,6 +296,14 @@ body {
     font-family: futura;
    cursor: pointer;
 } 
+.page4 .page5 img{
+    height: 100%;
+    padding-top: 10vh;
+    padding-left: 60vh;
+    margin-left: 20vh;
+}
+
+
 
 
 @media (max-width: 600px) {
