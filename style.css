@@ -179,8 +179,8 @@ body {
     position: absolute;
     top: 50%;
     left: 43%;
-    z-index:9;
-    background-color: #7ccab9;
+    /* z-index:9; */
+    background-color: #9bdddd;
 
 
 } 
@@ -246,7 +246,7 @@ body {
     /* background-color: rgb(44, 24, 124); */
     position: absolute;
     margin-top: 15vh;
-    margin-left: 25%;
+    margin-left: 30%;
     
     align-items: center;
     justify-content: center;
@@ -262,7 +262,7 @@ body {
     
     position: absolute;
     margin-top: 20vh;
-    margin-left: 37%;
+    margin-left: 42%;
     align-items: center;
     justify-content: center;
 
@@ -271,7 +271,7 @@ body {
 .page4 p{
     font-size: 2vh;
     padding-top: 30vh;
-    margin-left: 25%;
+    margin-left: 30%;
     
     /* align-items: center;
     justify-content: space-between; */
@@ -283,14 +283,14 @@ body {
     /* background-color: rgb(44, 24, 124); */
     position: absolute;
     margin-top: -28vh;
-    margin-left: 17%;
+    margin-left: 20%;
     
 }
 .page4 .pong button{
     background-color: black;
     color: white;
     margin-top: 15vh;
-    margin-left: 40%;
+    margin-left: 45%;
     padding: 15px 30px;
     border-radius: 50px;
     font-family: futura;
@@ -300,7 +300,7 @@ body {
     height: 100%;
     padding-top: 10vh;
     padding-left: 60vh;
-    margin-left: 20vh;
+    margin-left: 28vh;
 }
 
 
