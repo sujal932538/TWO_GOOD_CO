@@ -311,7 +311,7 @@ body {
 
 @media (max-width: 600px) {
 
-    /* #page1{
+     #page1{
         width: 100%;
         padding:0 3vw;
         padding-top: 2vh;
@@ -325,7 +325,7 @@ body {
         min-height: 100vh;
         width: 100%;
         padding: 0 3vw; 
-    }    */
+    }    
     #video-container video{
     height: 25vh;
     margin-top:3vw; ; 
