@@ -294,16 +294,17 @@ body {
     color: white;
     margin-top: 15vh;
     margin-left: 45%;
-    padding: 15px 30px;
+    padding: 14px 25px;
     border-radius: 50px;
     font-family: futura;
    cursor: pointer;
 } 
 .page4 .page5 img{
-    height: 100%;
+    height: 45vh;
+   
     padding-top: 10vh;
     padding-left: 60vh;
-    margin-left: 28vh;
+    margin-left: 34vh;
 }
 
 
