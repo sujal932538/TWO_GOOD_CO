@@ -314,10 +314,14 @@ body {
     padding-left: 5vh;
 
 } */
+/* .page4 .footer-logo{
+    padding: 5vh 10vh;
+} */
+
 .page4 .page5 img{
-    height: 45vh;
-   
-    padding-top: 10vh;
+    height: 34vh;
+    width: 45vw;
+    padding-top: 1vh;
     padding-left: 60vh;
     margin-left: 34vh;
 }
