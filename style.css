@@ -299,6 +299,17 @@ body {
     font-family: futura;
    cursor: pointer;
 } 
+.page4 .contact p{
+    height: 10vh;
+    width: 5vh;
+    /* margin-left: 1vh;
+    margin-bottom: -40vh;
+    padding-left: 80vh; */
+    background-color: #d3c7c7;
+    display: flex;
+    display: fixed;
+
+}
 .page4 .page5 img{
     height: 45vh;
    
