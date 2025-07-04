@@ -235,7 +235,7 @@ body {
 } */
 
 .page4 {
-    height: 80vh;
+    height: 65vh;
     width: 100%;
     background-color: white;
 
@@ -328,14 +328,16 @@ body {
 #footer{
     height: 100vh;
     width: 100%;
-    background-color: antiquewhite;
-    
+    background-color: rgb(248, 248, 249); 
     display: flex;
+    align-items: center;
+    
 }
 .footer-left{
     color: black;
     padding-top: 5vh;
     font-family: gilroy;
+    margin-bottom: 65vh;
 }
 
 
@@ -343,9 +345,9 @@ body {
     height: 30vh;
     width: 40vw;
     padding-left: 25vw;
-    padding-top: -25vh;
-    margin-left: 20%;
-    display: flex;
+    padding-top: 1vh;
+    margin-left: 39%;
+    margin-bottom: 65vh;
     
 }
 .footer-right{
@@ -354,7 +356,8 @@ body {
     background-color: bisque;
     padding-left: 80%;
     margin-left: 80%;
-    margin-top: 25vh;
+    margin-top: vh;
+
      }
 
 
