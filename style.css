@@ -157,7 +157,7 @@ body {
 
 }
 
- #page2  .elem  .dets {
+ /* #page2  .elem  .dets {
     height: 60px;
     width: 14vw;
     border-radius: 40px;
@@ -165,10 +165,10 @@ body {
     top: 50%;
     left: 43%;
     /* z-index:9; */
-    background-color: #9bdddd;
+    /* background-color: #9bdddd; */
 
 
-} 
+/* } */ 
 
 
 
@@ -307,17 +307,16 @@ body {
     padding-left: 60vh;
     margin-left: 34vh;
 } */
-/* Price below images in page3 */
+
 .price-tag {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
     color: #222;
     font-family: Arial, sans-serif;
+    margin-top: 8px;
 }
 
-/* Footer updated style */
 #footer {
     background-color: #f4f4f4;
     padding: 50px 20px;
