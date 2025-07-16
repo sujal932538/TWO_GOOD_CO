@@ -26,78 +26,60 @@ body {
     background-color:white;
 }
 
-#nav{
+#nav {
     /* height: 100px; */
     width: 100%;
-    background-color: rgb(185, 169, 169);
+    /* background-color: burlywood; */
     position: fixed;
     z-index: 99;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 20px
-   
+    padding: 25px;
 }
-#nav #nav-part1 {
-    
-    height: 80px;
+
+#nav #nav-part2 {
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    display: flex;
-    overflow: hidden;
-
-}
-
-#nav #nav-part1 svg{
-     display: block;
-}
-
-
-#nav #nav-part-2{
-    /* margin-top: 20vh; */
-    padding: 3vh 1vh;
-    display: flex;
-    align-items: right;
     justify-content: center;
-    gap: 30px;
-    margin-left: 1200px;
+    gap: 40px;
 }
 
-#links{
+#links {
     padding: 10px;
-
 }
 
-
-
-#nav-part2 #links a{
-    text-decoration: black;
-    color: black;
-    font-weight: 400PX;
-    font-size: 20px;
-    cursor: pointer;
-
+#nav-part1 {
+    /* background-color: RED; */
+    height: 82px;
+    overflow: hidden;
 }
-#icons{
+
+#nav-part1 svg {
+    display: block;
+}
+
+#nav-part2 #links a {
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+#icons {
     padding: 10px;
     border-radius: 50px;
     background-color: #F7F7F7;
-
 }
 
-
-#nav #nav-part-2 #icon i{ 
+#nav-part2 #icons i {
     font-size: 18px;
-    margin-right: 20px;
+    margin: 0 20px;
     font-weight: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-
 }
-
-
 
 #cursor{
     height: 150px;
@@ -247,7 +229,7 @@ body {
     font-weight: 2vh;
     font-family: futura;
     /* background-color: rgb(44, 24, 124); */
-    position: absolute;
+    /* position: absolute; */
     margin-top: 15vh;
     margin-left: 30%;
     
@@ -264,7 +246,7 @@ body {
     /* background-color: rgb(44, 24, 124);  */
     
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-left: 42%;
     align-items: center;
     justify-content: center;
@@ -325,64 +307,71 @@ body {
     padding-left: 60vh;
     margin-left: 34vh;
 } */
-#footer{
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255); 
+/* Price below images in page3 */
+.price-tag {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer updated style */
+#footer {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
-   
-    
+    border-top: 1px solid #ccc;
 }
-.footer-left{
-    color: black;
-    padding-top: 5vh;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 65vh;
-    margin-left: 2%;
-    color: black;
-    line-height: 1.3;
-    
-    /* background-color: #fff; */
+
+.footer-left {
+    flex: 1 1 200px;
+    margin: 20px;
 }
-.footer-left h4{
-    color:#1b1814;
-    line-height: 2;
-    font-size: 2vh;
+
+.footer-right {
+    flex: 1 1 200px;
+    margin: 20px;
+    margin-left: auto;
+    text-align: right;  
 }
 
 
-.footer-left ul li a{
-    color: black;
-    
+.footer-left h4, .footer-right h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-
-.footer-logo .page5 img{
-    height: 30vh;
-    width: 40vw;
-    padding-left: 25vw;
-    padding-top: 1vh;
-    margin-right: 250px;
-    margin-bottom: 65vh;
-    position: relative;
-}
-.footer-right{
-   padding: 3vh;
-   /* background-color: #f9f5f5; */
-   margin-top: -58vh;
-   
-     }
-.footer-right ul li a{
-        color: black;    
+.footer-left ul, .footer-right ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* .page6 {
-    height: 100vh;
+.footer-left ul li, .footer-right ul li {
+    margin-bottom: 10px;
+}
 
+.footer-left ul li a, .footer-right ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: 0.3s;
+}
 
-} */
+.footer-left ul li a:hover, .footer-right ul li a:hover {
+    color: #000;
+}
+
+.footer-logo img {
+    max-width: 220px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
 
  
  @media (max-width: 600px) {
